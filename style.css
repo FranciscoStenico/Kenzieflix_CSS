@@ -10,7 +10,7 @@ body {
     background-image: linear-gradient(to bottom right, #222222, #000);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;       /*INSERÇÃO DA FONTE REQUISITADA*/
 }
 header img{
     width: 250px;
@@ -21,8 +21,8 @@ h1 {
     margin: 61px 0;
 }
 main {
-    display: flex;
-    width: 700px;
+    display: flex;                  /*UTILIZAR CONCEITO FLEXBOX CAIXAS DE USUÁRIO*/
+    width: 700px;                   /*700px DE LARGURA NA BOX DE USUÁRIO*/
     height: 194px;
     justify-content: space-between;
 
@@ -31,7 +31,7 @@ main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 160px;
+    width: 160px;                   /*160px DE LARGURA PARA AS BOXES DE USUÁRIO*/
     font-size: 14px;
     font-weight: 600;
     color: #9c9c9c;
